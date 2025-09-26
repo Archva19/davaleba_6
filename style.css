@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(235, 241, 255);
+}
+
+.main_window {
+  display: flex;
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+}
+
+.inner_window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 20px;
+  background-image: linear-gradient(rgb(99, 64, 255), rgb(62, 50, 238));
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  color: white;
+}
+
+.headline {
+  margin-top: 30px;
+  color: rgb(202, 202, 202);
+  font-size: larger;
+  font-weight: 500;
+}
+
+.score_window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(75, 37, 208), rgba(70, 51, 236));
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.user_score {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.max_score {
+  color: rgb(185, 185, 185);
+  font-weight: 400;
+}
+
+.result_comment {
+  margin: 0 45px;
+  font-size: 400;
+  color: rgb(191, 191, 191);
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-left: 20px;
+}
+
+.summary h2 {
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  padding: 13px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.box div {
+  display: flex;
+  column-gap: 10px;
+}
+
+.box img {
+  width: 20px;
+}
+.reaction {
+  color: red;
+  background-color: rgb(255, 246, 246);
+}
+.memory {
+  color: orange;
+  background-color: rgb(255, 250, 243);
+}
+.verbal {
+  color: green;
+  background-color: rgb(243, 251, 249);
+}
+.visual {
+  color: Blue;
+  background-color: rgb(244, 244, 254);
+}
+
+.summary_score {
+  color: black;
+}
+span {
+  color: gray;
+}
+
+button {
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(48, 57, 88);
+  border-style: none;
+  border-radius: 30px;
+  padding: 15px;
+  width: 250px;
+  font-size: medium;
+}
